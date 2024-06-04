@@ -1,12 +1,9 @@
 import Link from "next/link";
+import { Header } from "../components/Header";
 
-const Page = (props: SideProjectsProps) => {
+const Page = () => {
   return (
-    <main>
-        <div className="bg-yellow-300 text-center p-6 text-3xl">
-            MOVIE NIGHT
-        </div>
-    </main>
+    <Header />
   );
 };
 
