@@ -1,10 +1,14 @@
-import Link from "next/link";
+import "../globals.css";
 import { Header } from "../components/Header";
+import { Film } from "../components/Film";
 
-const Page = () => {
+const Home = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <Film />
+    </>
   );
 };
 
-export default Page;
+export default Home;

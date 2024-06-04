@@ -17,13 +17,11 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-image: url('/movieTheater.png');
+  background-size: auto 100%; /* S'adapte uniquement en hauteur */
+  background-position: center top; /* Centre l'image verticalement */
+  background-repeat: no-repeat;
+  min-height: 100vh; /* Assurez-vous que le body a au moins la hauteur de la fenêtre d'affichage */
 }
 
 @layer utilities {
