@@ -10,7 +10,7 @@ export const Header = () => {
           MOVIE NIGHT
         </p>
       </div>
-      <div className="hidden lg:flex lg:flex-col lg:w-1/4 lg:bg-yellow-200 lg:text-center lg:p-6 lg:text-3xl lg:items-center lg:justify-center lg:h-full">
+      <div className="hidden lg:flex lg:flex-col lg:w-1/4 lg:bg-yellow-200 lg:text-center lg:p-6 lg:text-3xl lg:items-center lg:justify-center lg:h-screen">
         <p className="flex items-center">
           <Film className="mr-2" size={24} />
           MOVIE NIGHT
